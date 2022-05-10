@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-size: 16px; 
+}  
+ 
+
+/* NAV SECTION */
+
+/* NAV STYLES */
+nav {
+    width: 1349px;
+    height: 60px; 
+    padding: 2px 6px 0px 0px; 
+    z-index: 99;
+    background-color: #000;
+    box-sizing: inherit; 
+    display: block;
+    font-weight: 700;
+} 
