@@ -6,7 +6,32 @@
     font-family: 'Oswald', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: inherit;  
     font-size: 16px; 
 }  
   
+/* NAV CODE */
+nav {
+    width: 1349px;
+    height: 60px;
+    padding: 2px 6px; 
+    z-index: 99;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase; 
+} 
+
+nav > .nav-menu {
+    width: 1349px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px auto;
+    position: relative;
+    list-style: none; 
+    font-size: 1rem; 
+
+}
