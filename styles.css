@@ -22,6 +22,7 @@ nav {
     text-transform: uppercase; 
 } 
 
+/* NAV MENU */
 nav > .nav-menu {
     width: 1349px;
     height: 60px;
@@ -33,5 +34,131 @@ nav > .nav-menu {
     position: relative;
     list-style: none; 
     font-size: 1rem; 
-
 }
+
+/* NAV LOGO */
+nav > .nav-menu > .logo {
+    width: 230px;
+    height: 47px;
+    padding-right: 30px;
+    display: inline-block;
+} 
+
+nav > .nav-menu > .logo > a > img {
+    width: 100%; 
+    height: 41.563px;
+} 
+
+/* NAV - COUNTRY */
+nav > .nav-menu > .country {
+    width: 139.422px;
+    height: 60px;
+    margin-top: 0;
+    display: block;
+    font-size: .725em;   
+    font-weight: 300; 
+}
+
+nav > .nav-menu > .country > .m-country {
+    width: 93.022px;
+    height: 60px; 
+    padding: 0 2em;  
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;   
+    font-weight: 300; 
+} 
+
+nav > .nav-menu > .country > .m-country:hover {
+    color: #f26b21; 
+}
+
+nav > .nav-menu > .country > .m-country > img {
+    width: 10px;
+    height: 5px;
+    margin-left: 5px; 
+} 
+
+/* NAV - MENUS */
+nav > .nav-menu > .menu {
+    width: 100.812px;
+    height: 60px; 
+    margin-top: 0;  
+}
+
+nav > .nav-menu > .menu > .menu-title {
+    width: 36.812px;
+    height: 60px;
+    padding: 0 2em; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* NAV - FIND A RESTAURANT  */
+nav > .nav-menu > .far {
+    width: 195.250px;
+    height: 60px;
+    margin-top: 0; 
+}
+
+nav > .nav-menu > .far > a {
+    width: 131.250px;
+    height: 60px;
+    padding: 0 2em;
+    color: #fff; 
+    text-decoration: none; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NAV - CONTACT US */
+nav > .nav-menu > .c-us {
+    width: 144.375px;
+    height: 60px;
+    margin-top: 0px;
+} 
+
+nav > .nav-menu > .c-us > a {
+    width: 80.375px;
+    height: 60px;
+    padding: 0 2em;
+    color: #fff;
+    text-decoration: none; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/* NAV - SEARCH */
+nav > .nav-menu > .search {
+    width: 100px;
+    height: 38px;
+    margin-top: 0;
+    display: block;
+}
+
+nav > .nav-menu > .search > .search-btn {
+    width: 28px;
+    height: 36px;
+    padding: 1px 6px;
+    margin: 0px 30px;
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #a3a4a8;
+    cursor: pointer;
+} 
+
+/* FONT FOR SEARCH SECTION */ 
+/* font-size: 1em;
+font-family: Oswarld, sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+border: none;
+outline: none;  */
+  
+
