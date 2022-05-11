@@ -1,0 +1,224 @@
+<body>
+    <!-- NAV SECTION -->
+<nav>
+     <div class="inner-menu"> 
+    <!-- LOGO -->
+     <div class="logo">  
+        <a href="https://www.mcdonalds.co.za/">
+            <img src="./assets/rm-logo.jpg" alt="">  
+        </a>
+    </div>    
+
+    <!-- FIND YOUR COUNTRY -->
+     <div class="country">
+        <div class="rsa hover">
+            <text>South Africa</text>
+            <img src="./assets/country-drop-down.png" alt="">
+              
+        </div>      
+  
+         <ul class="country-list">
+
+            <li class="list-item">SOUTH AFRICA</li> 
+            <li class="list-item">BOTSWANA</li>
+            <li class="list-item">INDIA</li> 
+            <li class="list-item">KENYA</li>
+            <li class="list-item">MAURITIUS</li> 
+            <li class="list-item">NAMIBIA</li> 
+            <li class="list-item">SAUDI ARABIA</li>
+            <li class="list-item">ZAMBIA</li>
+            <li class="list-item">ZIMBABWE</li>
+            <li class="list-item">OMAN</li>
+            <li class="list-item">ESWATINI</li>
+            <li class="list-item">GHANA</li> 
+
+        </ul> 
+  
+            
+    </div>    
+
+    <!-- MENU -->
+    <!-- <div class="menu"> 
+       <span>MENU</span>   
+         <!-- <div class="sub-menu">
+            <a href="https://www.rocomamas.com/media/2187/rm-main-menu-april-2022.pdf">
+                DOWNLOAD A MENU 
+            </a>
+
+            <a href="https://www.rocomamas.com/media/2188/rm-main-menu-april-2022-halaal.pdf">
+                DOWNLOAD A MENU (HALAAL)
+            </a>   --> 
+        </div>  
+    </div> -->
+
+
+ 
+
+
+
+
+    <div class="far"></div>
+    <div class="contact-us"></div>
+    <div class="search"></div>
+
+</div> 
+</nav>  
+
+
+
+    <!-- MAIN BODY -->
+
+
+
+
+<!-- FOOTER SECTION -->
+
+
+
+
+</body>
+
+
+
+/* NAV SECTION */
+
+/* NAV STYLES */
+nav {
+    width: 1349px;
+    height: 60px; 
+    padding: 2px 6px 0px 0px; 
+    background-color: #000;
+    box-sizing: inherit; 
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    font-weight: 700;
+    cursor: pointer; 
+}    
+
+/* NAV LOGO */
+nav > .inner-menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: inherit;
+}  
+
+nav > .inner-menu > .logo > a {
+    width: 230px;
+    height: 47px;
+    padding-right: 30px; 
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+} 
+
+nav > .inner-menu > .logo > a > img {
+    width: 230px; 
+    height: 42px; 
+}  
+
+
+/* NAV - FIND YOUR COUNTRY */
+nav > .inner-menu > .country {
+    margin-top: 0;
+    display: block;
+    font-size: 0.725rem;
+    font-weight: 300;
+    width: 139.422px;
+    height: 60px; 
+      
+}    
+
+ nav > .inner-menu > .country > .rsa { 
+    display: inline-flex;  
+    align-items: center; 
+    justify-content: center;
+    width: 93px;
+    height: 60px;
+    padding: 0 23px;
+    color: #fff;
+    text-decoration: none;
+}    
+
+nav > .inner-menu > .country > .rsa:hover {
+    color: #f26b21; 
+    cursor: pointer;
+} 
+ 
+nav > .inner-menu > .country > .rsa > text {
+    display: inline-flex;  
+    font-size: 12px;    
+}    
+  
+nav > .inner-menu > .country > .rsa > img {
+    width: 10px;
+    height: 5px;
+    margin-left: 5px;
+    color: #fff;
+}  
+
+nav > .inner-menu > .country > .country-list {
+    display: block; 
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 132.203px;
+    height: 422.250px;
+    left: auto; 
+    padding-bottom: 16px; 
+    font-size: none; 
+    list-style: none;
+    position: ; 
+    /* z-index: 1111; */ 
+    background-color: #000; 
+} 
+  
+nav > .inner-menu > .country > .country-list:hover {} 
+ 
+ 
+nav > .inner-menu > .country > .country-list > .list-item {
+    font-size: 1rem;  
+    width: 100%;   
+    height: 35.188px;    
+    padding: 8px 24px ; 
+    color: #fff;    
+}
+ 
+nav > .inner-menu > .country > .country-list > .list-item:hover {
+    background-color: #f26b21;
+    cursor: pointer; 
+}   
+
+
+/* NAV - MENU */
+
+/* nav > .menu {
+    display: list-item;
+    margin-top: 0;
+    font-size: 1rem; 
+    list-style: none;
+}   
+
+nav > .menu > span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;  
+    color: #fff;
+    width: 36.812px;
+    height: 60px;
+    padding: 0 32px;  
+    font-size: 1rem; 
+}  
+   
+/* nav > .menu > .sub-menu {
+    display: block; 
+} */ */
+ 
+
+
+   
