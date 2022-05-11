@@ -103,18 +103,26 @@ nav > .inner-menu > .country > .country-list {
     background-color: #000; 
       
 }
+
+nav > .inner-menu > .country > .country-list:hover {
+    /* need hover code */
+}  
  
 
 nav > .inner-menu > .country > .country-list > .list-item {
     font-size: 12px; 
-    width: 84.203px;
+    width: 85px; 
     height: 30px;  
     padding: 8px 24px ; 
-    display: block;  
+    display: flex;   
     align-items: center;
     justify-content: center; 
     color: #fff;  
 }
+ 
+nav > .inner-menu > .country > .country-list > .list-item:hover {
+    background-color: #f26b21;
+} 
 
 
 
