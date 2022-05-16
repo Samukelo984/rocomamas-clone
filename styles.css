@@ -57,7 +57,13 @@ nav > .nav-menu > .country {
     display: block;
     font-size: .725em;   
     font-weight: 300; 
+    position: relative;
 }
+
+nav > .nav-menu > .country:hover > .country-list {
+    display: block; 
+    visibility: visible; 
+}   
 
 nav > .nav-menu > .country > .m-country {
     width: 93.022px;
@@ -68,7 +74,7 @@ nav > .nav-menu > .country > .m-country {
     align-items: center;
     font-size: 1em;   
     font-weight: 300; 
-} 
+}   
 
 nav > .nav-menu > .country > .m-country:hover {
     color: #f26b21; 
@@ -80,11 +86,41 @@ nav > .nav-menu > .country > .m-country > img {
     margin-left: 5px; 
 } 
 
+nav > .nav-menu > .country > .country-list { 
+    display: none;    
+    width: 132.203px;
+    height: 422.250px;
+    left: auto;
+    position: absolute;
+     z-index: 1111;  
+    padding-bottom: 16px; 
+    list-style: none;
+    background-color: #000; 
+    top: 100%; 
+    visibility: hidden;   
+}     
+ 
+nav > .nav-menu > .country > .country-list > .list-item {
+    font-size: 1rem;  
+    width: 84.203px;   
+    height: 19.188px;    
+    padding: 8px 24px ; 
+    color: #fff;
+}     
+
+nav > .nav-menu > .country > .country-list > .list-item:hover {
+    background-color: #f26b21; 
+} 
+
 /* NAV - MENUS */
 nav > .nav-menu > .menu {
     width: 100.812px;
     height: 60px; 
     margin-top: 0;  
+}
+
+nav > .nav-menu > .menu:hover {
+    color: #f26b21;  
 }
 
 nav > .nav-menu > .menu > .menu-title {
@@ -96,6 +132,7 @@ nav > .nav-menu > .menu > .menu-title {
     align-items: center;
 } 
 
+ 
 /* NAV - FIND A RESTAURANT  */
 nav > .nav-menu > .far {
     width: 195.250px;
@@ -114,6 +151,10 @@ nav > .nav-menu > .far > a {
     align-items: center;
 }
 
+nav > .nav-menu > .far >a:hover {
+    color: #f26b21; 
+} 
+
 /* NAV - CONTACT US */
 nav > .nav-menu > .c-us {
     width: 144.375px;
@@ -130,6 +171,10 @@ nav > .nav-menu > .c-us > a {
     display: inline-flex;
     justify-content: center;
     align-items: center; 
+}
+
+nav > .nav-menu > .c-us > a:hover { 
+    color: #f26b21;
 }
 
 /* NAV - SEARCH */
@@ -162,3 +207,57 @@ border: none;
 outline: none;  */
   
 
+
+/* MAINBODY SECTION  */
+
+main.roco-cw {
+    width: 1349px;
+    height: 574.188px;
+    background-color: #fff;
+    position: relative; 
+}
+
+main.gb {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    flex: 1 0 auto;
+    display: block; 
+} 
+
+.hero-section {
+    width: 100vw;
+    height: calc(100vh - 62px);
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-video {
+    width: 100%;
+    height: auto; 
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 1349px;
+    height: 109.031px;
+    padding-bottom: 15px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    background-color: #2c2c2c;
+    display: block; 
+}
