@@ -235,29 +235,137 @@ main {
 }
 
 .banner-video {
-    width: 100%;
+    width: 1349px; 
     height: auto; 
-}  
+}   
 
 
 
 
+/* CODE FOR MAKING IMAGES SLIDES  */
 
 
-
-
-
-
-
-
-
-
+/* FOOTER CODE */
 footer {
     width: 1349px;
     height: 109.031px;
     padding-bottom: 15px;
-    font-family: Open Sans, sans-serif;
+    font-family: Open Sans,serif, arial; 
     font-weight: 400;
     background-color: #2c2c2c;
-    display: block; 
 }
+ 
+
+/* NAV ITEMS CODE */
+.bottom {
+    width: 1349px;
+    height: 89.031px;
+    padding: 10px 0;
+} 
+ 
+.nav-items {
+    width: 1140px;
+    height: 51.031px;
+    padding: 20px 0px 20px 20px;
+    margin: 0 84.500px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+} 
+
+.nav-items > ul {
+    width: 480.438px;
+    height: 51.031px;
+    padding: 0px 50px;
+    margin: 0px 50.891px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: relative; 
+} 
+
+.nav-items > ul > li {
+    width: 100%; 
+    height: 19.188px;
+    margin-top: 0;
+    display: list-item; 
+    align-items: center;
+    font-size: .888em;
+    color: #fff; 
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+     
+}  
+
+.nav-items > ul > li:nth-child(1){       
+    width: 34.58px;
+    height: 100%;
+    padding-right: 25px; 
+}   
+
+.nav-items > ul > li:nth-child(2) {
+    width: 130.75px;
+    height: 100%;
+    padding-right: 25px;  
+}    
+
+.nav-items > ul > li:nth-child(3) {
+    width: 69.453px; 
+    height: 100%;
+    padding-right: 25px; 
+}   
+.nav-items > ul > li:nth-child(4) {
+    width: 57.45px; 
+    height: 100%;
+    padding-right: 25px;  
+}
+
+.nav-items > ul > li:nth-child(5) {
+    width: 63.58px;  
+    height: 100%;
+    padding-right: 25px; 
+} 
+
+/* SOCIAL LINKS CODE */
+
+ .social-links {  
+    width: 256px;
+    height: 51.031px;
+    padding: 0px 50px;
+    margin: 0px auto;  
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    list-style: none; 
+}
+
+.social-links-div >.social-links > .social-item {
+    width: 48px;
+    height: 51.031px;
+    display: block;
+    color: #fff; 
+    padding-left: 8px;
+    padding-right: 8px;  
+}    
+ 
+.social-links > .social-item > img {
+    width: 48px;
+    height: 48px; 
+}
+
+/* DISCLAINER  */
+
+.disclaimer {
+    width: 1125px; 
+    height: 18px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    margin-left: 84.500px;
+    margin-right: 84.500px;
+     display: flex;  
+     justify-content: center; 
+    color: #fff; 
+}  
