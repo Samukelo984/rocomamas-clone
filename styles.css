@@ -123,6 +123,10 @@ nav > .nav-menu > .menu:hover {
     color: #f26b21;  
 }
 
+nav > .nav-menu > .menu:hover > .sub-menu {
+    visibility: visible; 
+}
+
 nav > .nav-menu > .menu > .menu-title {
     width: 36.812px;
     height: 60px;
@@ -132,7 +136,44 @@ nav > .nav-menu > .menu > .menu-title {
     align-items: center;
 } 
 
+.menu > .sub-menu {
+    width: 264.094px;
+    height: 70.375px;
+    padding-bottom: 1em; 
+    left: 350;  
+    position: relative;
+    z-index: 1111;  
+    background-color: #000; 
+    visibility: hidden; 
+}  
+
+.menu > .sub-menu > li {
+    width: 264.094px;
+    height: 70.375px; 
+    display: block;  
+}   
  
+.menu > .sub-menu > li > a {
+    width: 264.094px;
+    height: auto;  
+    padding-top: 8px;
+    padding-bottom: 8px;     
+    text-decoration: none; 
+    color: #fff; 
+    display: inline-flex;   
+}
+
+.menu > .sub-menu > li > a:hover {
+    background-color: #f26b21;
+}  
+
+.menu > .sub-menu > li > a > i {
+    width: 16px;
+    height: 16px;
+    padding-left: 18px;
+    padding-right: 15px; 
+}
+  
 /* NAV - FIND A RESTAURANT  */
 nav > .nav-menu > .far {
     width: 195.250px;
