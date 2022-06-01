@@ -266,7 +266,7 @@ main.gb {
 main {
     flex: 1 0 auto;
     display: block; 
-} 
+}  
 
 .hero-section {
     width: 100vw;
@@ -275,16 +275,36 @@ main {
     overflow: hidden;
 }
 
+.sliding-images { 
+    width: 901.547px;
+    height: 422.594px;
+    margin-left: 232.219px; 
+    margin-right: 232.219px;
+    
+}   
+
+.image-items > .r-image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row; 
+    position: relative;
+    transition: left 2s; 
+    -webkit-transition: left 2s; 
+    list-style: none;
+}
+ 
+.r-image{ 
+    position: relative;
+    float: left;
+} 
+
+
+ 
 .banner-video {
     width: 1349px; 
     height: auto; 
 }   
-
-
-
-
-/* CODE FOR MAKING IMAGES SLIDES  */
-
 
 /* FOOTER CODE */
 footer {
